@@ -15,3 +15,7 @@ number = int(raw_input("Enter the element you want to search"))
 t = search(number,X)
 if t == 1:
     print "Found a Match"
+
+
+
+#The Running time for this example is O(n) in terms of the Big O notation. 
