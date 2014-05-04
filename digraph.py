@@ -1,3 +1,11 @@
+# Risto(coursera classmate) wrote a visual tester for the Counting Inversions assignment. It creates a bipartite graph like in the lecture video, where you can see the intersections and which numbers it corresponds to. It's written in python and it uses matplotlib and networkx:
+
+#this is written by Risto 
+
+#python digraph.py 1,3,5,2,4,6 shows the figure with inversions
+
+
+
 import sys
 import networkx as nx
 import matplotlib.pyplot as plt
