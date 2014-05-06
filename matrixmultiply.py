@@ -14,3 +14,6 @@ for i in xrange(n):
             sum += a[i][k]*b[k][j]
         c[i].append(sum)
 print c
+
+
+#This take a time of O(n^3)
