@@ -8,6 +8,6 @@ nc2 = 2
 import numpy as np
 a = np.random.random((nr1,nc1)) 
 b = np.random.random((nr2,nc2))
-c = dot(a,b)
+c = np.dot(a,b)
 print a,b
 print c
