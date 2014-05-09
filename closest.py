@@ -30,9 +30,10 @@ Px = []
 Py = []
 i = 0
 while i < len(P):
+    #print P[i]
     Px.append(P[i][0])
     Py.append(P[i][1])
-
+    i += 1
 print Px
 print Py
 
